@@ -1,0 +1,53 @@
+
+@font-face {
+    font-family: 'Henny Penny', cursive ;
+    src: url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+    font-family: 'Fruktur', cursive ;
+    src: url('https://fonts.googleapis.com/css2?family=Fruktur&family=Henny+Penny&display=swap');
+}
+body{
+    margin: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, Sans-serif;
+    color: white;
+}
+
+p{
+    padding: 25px;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 25px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+.box-1{
+    background: darkcyan; 
+}
+
+.box-2{
+    background: #00008b;
+    letter-spacing: 5px;
+   word-spacing: 5px;
+   font-family: 'Henny Penny',cursive;
+}
+
+.box-3{
+    background: darkmagenta;
+    text-shadow: 5px 5px 0px blue, 5px 5px 0px darkblue;
+    font-family: 'Fruktur', cursive ;
+    text-decoration: wavy turquoise;
+}
+
+.box-4{
+    background: chocolate;
+    text-transform: uppercase ;
+    text-shadow :5px 5px blue ;
+    
+
+}

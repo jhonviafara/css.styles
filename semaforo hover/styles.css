@@ -1,0 +1,92 @@
+body{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    overflow: hidden;
+    background-image: url('avenida.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main{
+    background: darkgoldenrod;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding: 25px;
+    width: 350px;
+    height: 600px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main:hover{
+    background-color:yellow ;
+}
+.main::before{
+    content: 'semaforo apagado';
+}
+.main:hover::before{
+    content: "semaforo encendido";
+}
+
+.top,
+.mid,
+.bottom{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 50%;
+    margin: 5px auto;
+    font-family: "Font Awesome 5 Brands"; 
+}
+
+.top{
+    background: darkred;
+}
+.mid{
+    background: darkorange;
+}
+.bottom{
+    background: darkgreen;
+}
+
+.top:hover{
+    background-color:red ;
+}
+.top:hover:before{
+    content: '\f057';
+}
+.mid:hover{
+    background-color: orange;
+}
+.mid:hover::before{
+    content: '\f06a';
+}
+.bottom:hover{
+    background-color: rgb(157, 188, 157);
+}
+.bottom:hover::before{
+    content:  '\f058';
+}
+.top:hover:before,
+.mid:hover:before,
+.bottom:hover:before{
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 600;
+    font-size: 100px;
+    cursor: pointer;
+}
+
+
+
+

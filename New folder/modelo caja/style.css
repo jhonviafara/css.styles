@@ -1,0 +1,6 @@
+div[class^='box']{
+    height: 350px;
+    width: 350px  ;
+    border: 4px red h ;
+    display: inline-block ;
+}

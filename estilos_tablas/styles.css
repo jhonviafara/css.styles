@@ -1,0 +1,57 @@
+
+body{
+    width: 100%;
+    margin: 0;
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+   background-image: url(globe.jpeg) ;
+   background-size:20%;
+   background-size:cover  ;
+   color: blanchedalmond;
+   text-align:  center;
+   width: 100%;
+     
+}
+
+table{
+    margin: 1% auto;
+    width: 80%;
+    height: 80%;
+    
+   
+}
+.albania:hover{
+    background-image: url(albania.png) ;
+    width: auto;
+    }
+.canada:hover{
+    background-image: url(canada.png);
+    position: relative;
+}
+.hungria:hover{
+    background-image: url(hungria.png);
+    position: relative;
+}
+.kenia:hover{
+    background-image: url(kenia.png);
+    position: relative;
+}
+
+th,
+td{
+    font-size: 1.5em;
+    padding: 2%;
+    border: 1px solid white;
+    width: 15%;
+    padding: 2%;
+    font-size: 1em;
+    text-align: center;
+}
+
+th{
+    background: linear-gradient(to bottom, #051a41, #083659, #356b8c ); 
+    color: white;
+} 
