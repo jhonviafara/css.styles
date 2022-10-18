@@ -24,20 +24,31 @@ table{
    
 }
 .albania:hover{
+    
     background-image: url(albania.png) ;
-    width: auto;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: contain;
     }
 .canada:hover{
     background-image: url(canada.png);
-    position: relative;
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
+
 }
 .hungria:hover{
     background-image: url(hungria.png);
-    position: relative;
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
 }
 .kenia:hover{
+    color: aliceblue;
     background-image: url(kenia.png);
-    position: relative;
+    background-size: contain;
+ 
+    background-repeat: repeat;
 }
 
 th,
